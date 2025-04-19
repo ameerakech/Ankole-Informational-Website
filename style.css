@@ -1,0 +1,150 @@
+.home-page{
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    background-image: url(images/ankole-img.jpg);
+    height: 100vh;
+    width: 100%;
+    animation-name: image;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+  
+}
+
+body{
+    margin: 0;
+
+}
+@keyframes image{
+0% {background-image: url(images/ankoledining.jpg)}
+20%{background-image:url(images/foodimage.jpg) }
+30%{background-image: url(images/candysweet.jpg)}
+40%{background-image: url(images/garlicimage.jpg)}
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2cm;
+    margin-top:20cm;
+    justify-content: center;
+    border: solid 3px;
+    padding: 25px;
+    width: 19cm;
+    margin-left: 15cm;
+    background-color:black;
+    border-radius: 25px;
+    position: absolute;
+    text-decoration: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#bar{
+    text-decoration: none;
+    color: white;
+}
+#bar-reservation{
+    text-decoration: none;
+    color: white;
+    border: solid;
+    padding: 3px;
+    border-radius: 25px;
+    background-color: grey;
+
+}
+h1{
+    text-align: center;
+    color:rgba(128, 128, 128, 0.918);
+    margin-top: 6cm;
+    font-size:600%;
+    margin-top: 8cm;
+    padding-top: 5cm;
+    padding-right: 1cm;
+  
+
+  
+}
+#logooo{
+    position: absolute;
+    top: 8%; left: 40%;
+    z-index: 1;
+    width: 20%;
+
+}
+@media only screen and(max-width:600px){
+    .home-page{
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        background-image: url(images/ankole-img.jpg);
+        height: 100%;
+        width: 100%;
+        animation-name: image;
+        animation-iteration-count: infinite;
+        animation-duration: 25s;
+    }
+    
+    body{
+        margin: 0;
+    
+    }
+    @keyframes image{
+    0% {background-image: url(images/ankoledining.jpg)}
+    20%{background-image:url(images/foodimage.jpg) }
+    30%{background-image: url(images/candysweet.jpg)}
+    40%{background-image: url(images/garlicimage.jpg)}
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        gap: 2cm;
+        margin-top:-100cm;
+        justify-content: center;
+        border: solid 3px;
+        padding: 25px;
+        width: 12cm;
+        margin-left: 5cm;
+        background-color:black;
+        border-radius: 25px;
+        position: absolute;
+        text-decoration: none;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    
+    #bar{
+        text-decoration: none;
+        color: white;
+    
+    }
+    #bar-reservation{
+        text-decoration: none;
+        color: white;
+        border: solid;
+        padding: 2px;
+        border-radius: 10px;
+        background-color: grey;
+    
+    }
+    h1{
+        text-align: center;
+        color:rgba(128, 128, 128, 0.918);
+        margin-top: 6cm;
+        font-size: xx-large;
+        margin-top: 8cm;
+        padding-top: 3cm;
+        padding-right: 4cm;
+   
+      
+    }
+    #logooo{
+        position: absolute;
+        top: 3%; left: 20%;
+        z-index: 1;
+        width:25%;
+    }
+}
+
+
+
+

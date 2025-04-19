@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    }
+    .reviews-logo{
+    margin-left: 18cm;
+    margin-top: 1cm;
+    
+    }
+    h2{
+        margin-left: 4cm;
+        color: white;
+        margin-top: 1cm;
+    }
+    #logostyle{
+        width: 7cm;
+        margin-left:1cm;
+    
+    }
+    #quotes-left{
+        color: orange;
+        font-size: 200%;
+        margin-left: 480px;
+        
+        
+    }
+    #review-text{
+        color: white;
+        margin-left: 15cm;
+        font-size: 120%;
+        text-indent: 1.5cm;
+
+        
+    }
+    #quotes-right{
+        color: orange;
+        font-size: 200%;
+        margin-left: 1190px;
+        margin-bottom: auto;
+        margin-top: 4cm;
+        position: absolute;
+        
+    }
+    #angle-right{
+        color: white;
+        margin-left: 32cm;
+        position: absolute;
+        margin-top: 2cm;
+       
+    }
+    #angle-left{
+        color: white;
+        position: absolute;
+        margin-left: 13cm;
+        margin-top: 1.1cm;
+    
+    }
+    .reviews{
+        position: absolute;
+        margin-top: -1cm;
+        
+    }
+
+
+    nav ul{
+        list-style: none;
+        display: flex;
+        gap: 2cm;
+        margin-top:8cm;
+        justify-content: center;
+        border: solid 3px;
+        padding: 25px;
+        width: 19cm;
+        margin-left: 13.5cm;
+        background-color:rgba(17, 1, 1, 0.61);
+        border-radius: 25px;
+        position: absolute;
+        text-decoration: none;
+        border: solid 1px;
+        
+    }
+    
+    #bar{
+        text-decoration: none;
+        color:white;
+        font-weight: bold;
+    }
+    #bar-reservation{
+        text-decoration: none;
+        color: white;
+        border: solid;
+        padding: 3px;
+        border-radius: 25px;
+        background-color: grey;
+    
+    }
+    .bottom-line{
+        color: aliceblue;
+        margin-top: 4.5cm;
+        text-align: center;
+        position: absolute;
+        margin-left: 22cm;
+    }

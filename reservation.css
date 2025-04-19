@@ -1,0 +1,258 @@
+.reservation-img{
+background-image: url(images/reservation.jpg);
+background-size: cover;
+height: 101vh;
+width: 50%;
+
+}
+#right-section{
+    margin-top: 1cm;
+    text-align: center;
+    font-size: 250%;
+    color: orangered;
+
+}
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 9cm;
+    font-size: 250%;
+    color: aliceblue;
+}
+
+.form-fill-in{
+    
+    width: 400%;
+    height: 99.5vh;
+    color: white;
+    background-color: black;
+    padding-left: 1cm;
+    padding-top: 0.5cm;
+}
+
+.reservation-section{
+    display: flex;
+
+}
+#fname{
+    width: 80%;
+    padding: 15px;
+    background-color: black;
+    border-color: green;
+    
+    
+}
+#location{
+    width: 80%;
+    padding: 15px;
+    background-color:black;
+    border-color: green;
+
+}
+#email{
+    width: 80%;
+    padding: 15px;
+    background-color: black;
+    border-color: green;
+}
+#tel{
+    width: 80%;
+    padding: 15px;
+    background-color: black;
+    border-color: green;
+
+}
+#number{
+    width: 80%;
+    padding: 15px;
+    background-color: black;
+    border-color: green;
+}
+#date{
+    width: 80%;
+    padding: 15px;
+    background-color: black;
+    border-color: green;
+}
+#time{
+    width: 80%;
+    padding: 15px;
+    background-color: black;
+    border-color: green;
+}
+
+#submit-button{
+    width: 85%;
+    padding: 20px;
+    background-color:burlywood;
+    border-radius:15px;
+
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2cm;
+    margin-top:-7cm;
+    justify-content: center;
+    border: solid 3px;
+    padding: 25px;
+    width: 19cm;
+    margin-left:2cm;
+    background-color:black;
+    border-radius: 25px;
+    position: absolute;
+    text-decoration: none;
+    
+}
+
+#bar{
+    text-decoration: none;
+    color: white;
+}
+#bar-reservation{
+    text-decoration: none;
+    color: white;
+    border: solid;
+    padding: 3px;
+    border-radius: 25px;
+    background-color: grey;
+
+}
+@media only screen and (max-width:600px){
+    .reservation-img{
+        background-image: url(images/reservation.jpg);
+        background-size: cover;
+        height: 80vh;
+        width:100%;
+        /* display: block; */
+        
+        
+        
+        
+        }
+        #right-section{
+            margin-top: 3cm;
+            text-align: center;
+            font-size: 250%;
+            color: orangered;
+            position: absolute;
+            margin-left: 3cm;
+        
+        }
+        body{
+            margin: 0;
+        }
+        h1{
+            text-align: center;
+            margin-top: 5cm;
+            font-size: 250%;
+            color: aliceblue;
+            position: absolute;
+            margin-left: 4cm;
+        }
+        
+        .form-fill-in{
+            
+            width: 90%;
+            height: 100%;
+            color: white;
+            background-color: black;
+            display: block;
+        
+        }
+        
+        .reservation-section{
+            display: block;
+        
+        }
+        #fname{
+            width: 80%;
+            padding: 15px;
+            background-color: black;
+            border-color: green;
+            
+            
+        }
+        #location{
+            width: 80%;
+            padding: 15px;
+            background-color:black;
+            border-color: green;
+        
+        }
+        #email{
+            width: 80%;
+            padding: 15px;
+            background-color: black;
+            border-color: green;
+        }
+        #tel{
+            width: 80%;
+            padding: 15px;
+            background-color: black;
+            border-color: green;
+        
+        }
+        #number{
+            width: 80%;
+            padding: 15px;
+            background-color: black;
+            border-color: green;
+        }
+        #date{
+            width: 80%;
+            padding: 15px;
+            background-color: black;
+            border-color: green;
+        }
+        #time{
+            width: 80%;
+            padding: 15px;
+            background-color: black;
+            border-color: green;
+        }
+        
+        #submit-button{
+            width: 85%;
+            padding: 20px;
+            background-color:burlywood;
+            border-radius:15px;
+        
+        }
+        
+        
+        nav ul{
+            list-style: none;
+            display: flex;
+            gap: 0.5cm;
+            margin-top:-15.5cm;
+            justify-content: center;
+            border: solid 3px;
+            padding: 25px;
+            width: 9cm;
+            margin-left:0cm;
+            background-color:black;
+            border-radius: 25px;
+            position: absolute;
+            text-decoration: none;
+            
+        }
+        
+        #bar{
+            text-decoration: none;
+            color: white;
+        }
+        #bar-reservation{
+            text-decoration: none;
+            color: white;
+            border: solid;
+            padding: 3px;
+            border-radius: 25px;
+            background-color: grey;
+        
+        }
+}

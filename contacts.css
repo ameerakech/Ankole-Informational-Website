@@ -1,0 +1,92 @@
+.kitisuri-contacts{
+    color:white;
+    border: solid;
+    margin-left: 14cm;
+    width: 8cm;
+    height: 6cm;
+    margin-top: 7cm;
+    font-size: 120%;
+    padding: 15px;
+    font-weight: bold;
+    margin-top: 8cm;
+    
+    
+}
+.contacts-img{
+    background-image: url(images/contacts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    position:absolute;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    gap: 2cm;
+    
+    
+    
+}
+.kilimani-contacts{
+    color:white;
+    border: solid;
+    margin-left: 1cm;
+    width: 8cm;
+    height: 8cm;
+    margin-top: 7cm;  
+    font-size: 120%;
+    padding: 26px;
+    margin-top: 8cm;
+    
+}
+#address{
+   text-decoration: none;
+   color: white;
+
+}
+h3{
+    text-align: center;
+    font-size: 150%;
+    color: aqua;
+}
+
+#ankole-logo{
+overflow: visible;
+position: absolute;
+z-index: 1;
+top: 10%;left: 45%;
+width: 10%;
+}
+body{
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2cm;
+    margin-top:20cm;
+    justify-content: center;
+    border: solid 3px;
+    padding: 25px;
+    width: 19cm;
+    margin-left: 15cm;
+    background-color:black;
+    border-radius: 25px;
+    position: absolute;
+    text-decoration: none;
+    
+}
+
+#bar{
+    text-decoration: none;
+    color: white;
+}
+#bar-reservation{
+    text-decoration: none;
+    color: white;
+    border: solid;
+    padding: 3px;
+    border-radius: 25px;
+    background-color: grey;
+
+}

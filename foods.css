@@ -1,0 +1,338 @@
+.right-img{
+    background-image:url(images/mm1.jpg);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+    position: fixed;
+   
+    
+    }
+ 
+    body{
+        margin: 0;
+    }
+    .kitisurimenu{
+        display: flex;
+        color: white;
+    
+        
+    }
+
+    .kitisuri-items{
+        background-color: black;
+        width: 60%;
+        /* overflow-x:auto; */
+        position: relative;
+        margin-left:50%;
+       
+        
+    }
+    #logo-kitisuri{
+        width: 5cm;
+        margin-top: 5cm;
+        margin-left: 10cm;
+        position: absolute;
+    }
+
+    h5{
+        font-style: 200%;
+    }
+    h1{
+        text-align: center;
+        font-size: 300%;
+        color: orangered;
+    }
+
+    #menu-text{
+        text-align: center;
+        margin-top: 5cm;
+        font-size: 200%;
+        
+    }
+    .words-on-image{
+        margin-top:12cm;
+        margin-left: 3cm;
+    }
+    .information-on-menu ul{
+        list-style: none;
+        display: flex;
+        gap: 3cm;
+        font-size: 120%;
+    
+    }
+    #service{
+        text-decoration: none;
+        color: white;
+    
+    }
+    .left-categories ul{
+        color: orangered;
+        display: flex;
+        gap: 3cm;
+        font-weight: bold;
+    }
+    .prices ul{
+        list-style: none;
+    }
+    .foods ul{
+        list-style: none;
+    }
+    .food-prices{
+        display: flex;
+        gap: 8cm;
+    }
+    .breakfast{
+        margin-top: 1.5cm;
+    }
+    #logo-kiti{
+        width: 25%;
+    }
+    .ankole-breakfast{
+        display: flex;
+        gap: 0%;
+    }
+    .ankole-eggs{
+        display: flex;
+    }
+    .ankole-break{
+        display: flex;
+    }
+    .meal-price{
+        margin-left: 3.5cm;
+    }
+    .prices-meals{
+        margin-left:1cm ;
+    }
+
+    .food-type ul{
+        list-style: none;
+    }
+    .food-price ul{
+        list-style:none;
+    }
+    .foods-section{
+        display: flex;
+        gap: 10.7cm;
+    }
+    #food-txt{
+        font-size: 140%;
+        margin-left: 1cm;
+    }
+    h4{
+        color: orangered;
+        margin-left: 1cm;
+    }
+
+    .ankole-lunch{
+        display: flex;
+    }
+    .ankole-food{
+        display: flex;
+    }
+    .ankole-meal{
+        display: flex;
+    }
+    .lunch{
+        margin-top: 2cm;
+    }
+    .food-amount{
+        margin-left: 4cm;
+    }
+    .amount{
+        margin-left: 1.2cm;
+    }
+    .fresh-juice ul{
+        list-style: none;
+    }
+    .juice-prices ul{
+        list-style:none;
+    }
+    .juice{
+        display: flex;
+        gap: 9cm;
+    }
+
+    .juices{
+        display: flex;
+        gap: 11.5cm;
+    }
+    h2{
+        color: orangered;
+    }
+
+    @media only screen and (max-width:600px) {
+        .right-img{
+            background-image:url(images/mm1.jpg);
+            color: white;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            position: absolute;
+            flex-direction: column;
+            }
+         
+            body{
+                margin: 0;
+            }
+            .kitisurimenu{
+                display: block;
+                flex-wrap: wrap;
+                color: white;
+                flex-direction: column;
+            
+            }
+        
+            .kitisuri-items{
+                background-color: black;
+                width: 100%;
+                overflow-x:auto; 
+                position: relative;
+                position: absolute;
+
+                margin-left:0%;
+                flex-direction: column;
+                flex-wrap: wrap;
+                display: block;
+                margin-top: 200%;
+                position: absolute;
+               
+                
+            }
+            #logo-kitisuri{
+                width: 5cm;
+                margin-top: 1cm;
+                margin-left: 3cm;
+                position: absolute;
+            }
+        
+            h5{
+                font-style: 200%;
+            }
+            h1{
+                text-align: center;
+                font-size: 300%;
+                color: orangered;
+                margin-top: -10cm;
+            }
+        
+            #menu-text{
+                text-align: center;
+                /* margin-top: 5cm; */
+                font-size: 200%;
+                
+            }
+            .words-on-image{
+                margin-top:12cm;
+                margin-left: 3cm;
+            }
+            .information-on-menu ul{
+                list-style: none;
+                display: flex;
+                gap: 3cm;
+                font-size: 120%;
+            
+            }
+            #service{
+                text-decoration: none;
+                color: white;
+            
+            }
+            .left-categories ul{
+                color: orangered;
+                display: flex;
+                gap: 3cm;
+                font-weight: bold;
+            }
+            .prices ul{
+                list-style: none;
+            }
+            .foods ul{
+                list-style: none;
+            }
+            .food-prices{
+                display: flex;
+                gap: 8cm;
+            }
+            .breakfast{
+                margin-top: 1.5cm;
+            }
+            #logo-kiti{
+                width: 25%;
+            }
+            .ankole-breakfast{
+                display: flex;
+            }
+            .ankole-eggs{
+                display: flex;
+            }
+            .ankole-break{
+                display: flex;
+            }
+            .meal-price{
+                margin-left: 3.5cm;
+            }
+            .prices-meals{
+                margin-left:1cm ;
+            }
+        
+            .food-type ul{
+                list-style: none;
+            }
+            .food-price ul{
+                list-style:none;
+            }
+            .foods-section{
+                display: flex;
+                gap: 10.7cm;
+            }
+            #food-txt{
+                font-size: 140%;
+                margin-left: 1cm;
+            }
+            h4{
+                color: orangered;
+                margin-left: 1cm;
+            }
+        
+            .ankole-lunch{
+                display: flex;
+            }
+            .ankole-food{
+                display: flex;
+            }
+            .ankole-meal{
+                display: flex;
+            }
+            .lunch{
+                margin-top: 2cm;
+            }
+            .food-amount{
+                margin-left: 4cm;
+            }
+            .amount{
+                margin-left: 1.2cm;
+            }
+            .fresh-juice ul{
+                list-style: none;
+            }
+            .juice-prices ul{
+                list-style:none;
+            }
+            .juice{
+                display: flex;
+                gap: 9cm;
+            }
+        
+            .juices{
+                display: flex;
+                gap: 11.5cm;
+            }
+            h2{
+                color: orangered;
+            }
+        
+    }

@@ -1,0 +1,227 @@
+.live-left{
+    background-image:url(images/image\ \(1\).png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 300%;
+    
+}
+
+#logo-ankole{
+   width: 10%;
+   margin-left: 8cm;
+   margin-top: 3cm;
+}
+body{
+   margin: 0;
+}
+
+h1{
+   margin-left: 9.8cm;
+   color: orangered;
+   font-size: 200%;
+   margin-top: 1cm;
+}
+h2{
+margin-left: 9cm;
+color: white;
+font-size: 220%;
+margin-top: 4cm;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2cm;
+    margin-top:4cm;
+    justify-content: center;
+    border: solid 3px;
+    padding: 25px;
+    width: 19cm;
+    margin-left: 1cm;
+    background-color:black;
+    border-radius: 25px;
+    position: absolute;
+    text-decoration: none;
+    
+ }
+ 
+ #bar{
+    text-decoration: none;
+    color: white;
+ }
+ #bar-reservation{
+    text-decoration: none;
+    color: white;
+    border: solid;
+    padding: 3px;
+    border-radius: 25px;
+    background-color: grey;
+ 
+ }
+#pink-live{
+   width: 6cm;
+   gap: 1cm;
+  
+}
+
+.live{
+   display: flex;
+}
+.mushroom-live{
+   display: flex;
+   gap: 1cm;
+}
+.fadhilee-live{
+   display: flex;
+   gap: 1cm;
+}
+
+.jack{
+   display: flex;
+   gap: 1cm;
+   padding: 4px;
+}
+
+.live-artists{
+overflow: visible;
+position: absolute;
+z-index: 1;
+top: 10%;left: 59%;
+}
+h3{
+   color: aliceblue;
+
+}
+.fadhilee-live p{
+   color: orangered;
+   font-size: 130%;
+   font-weight: bold;
+
+}
+.jack p {
+   color: orangered;
+   font-size: 130%;
+   font-weight: bold;
+}
+.mushroom-live p{
+   color: orangered;
+   font-size: 130%;
+   font-weight: bold;
+}
+
+@media only screen and (max-width:600px){
+   .live-left{
+      background-image:url(images/image\ \(1\).png) ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      
+  }
+  
+  #logo-ankole{
+     width: 10%;
+     margin-left: 8cm;
+     margin-top: 3cm;
+  }
+  body{
+     margin: 0;
+  }
+  
+  h1{
+     margin-left: 9.8cm;
+     color: orangered;
+     font-size: 200%;
+     margin-top: 1cm;
+  }
+  h2{
+  margin-left: 9cm;
+  color: white;
+  font-size: 220%;
+  margin-top: 4cm;
+  }
+  
+  
+  nav ul{
+      list-style: none;
+      display: flex;
+      gap: 2cm;
+      margin-top:4cm;
+      justify-content: center;
+      border: solid 3px;
+      padding: 25px;
+      width: 19cm;
+      margin-left: 1cm;
+      background-color:black;
+      border-radius: 25px;
+      position: absolute;
+      text-decoration: none;
+      
+   }
+   
+   #bar{
+      text-decoration: none;
+      color: white;
+   }
+   #bar-reservation{
+      text-decoration: none;
+      color: white;
+      border: solid;
+      padding: 3px;
+      border-radius: 25px;
+      background-color: grey;
+   
+   }
+  #pink-live{
+     width: 6cm;
+     gap: 1cm;
+    
+  }
+  
+  .live{
+     display: flex;
+  }
+  .mushroom-live{
+     display: flex;
+     gap: 1cm;
+  }
+  .fadhilee-live{
+     display: flex;
+     gap: 1cm;
+  }
+  
+  .jack{
+     display: flex;
+     gap: 1cm;
+     padding: 4px;
+  }
+  
+  .live-artists{
+  overflow: visible;
+  position: absolute;
+  z-index: 1;
+  top: 10%;left: 59%;
+  }
+  h3{
+     color: aliceblue;
+  
+  }
+  .fadhilee-live p{
+     color: orangered;
+     font-size: 130%;
+     font-weight: bold;
+  
+  }
+  .jack p {
+     color: orangered;
+     font-size: 130%;
+     font-weight: bold;
+  }
+  .mushroom-live p{
+     color: orangered;
+     font-size: 130%;
+     font-weight: bold;
+  }
+}  
